@@ -8,7 +8,7 @@
 # Copyright:   (c) casey.jenkins 2012
 # Licence:     <your licence>
 # -------------------------------------------------------------------------------
-
+from bs4 import BeautifulSoup
 import urllib, re
 
 url = "http://api.wunderground.com/weatherstation/WXCurrentObXML.asp?ID=KIDGRACE5"
